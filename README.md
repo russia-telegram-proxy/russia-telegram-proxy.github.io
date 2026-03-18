@@ -1,53 +1,123 @@
-## Как настроить Telegram чтобы он работал в России ?
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Что делать если не работает Telegram ?</title>
+    <meta name="google-site-verification" content="j-JpRqCA35apstHF6tKxbE9vVXtUuFuj-CAvQe3RUKc" />
+    <style>
+        /* minimal styling to keep it clean and readable, like a GitHub README feel */
+        body {
+            background-color: #ffffff;
+            color: #24292f;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 2rem;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1, h2, h3, h4 {
+            border-bottom: 1px solid #d0d7de;
+            padding-bottom: 0.3rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            line-height: 1.25;
+        }
+        h1 { font-size: 2em; }
+        h2 { font-size: 1.5em; }
+        h3 { font-size: 1.25em; }
+        h4 { font-size: 1em; border-bottom: 0; }
+        p {
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+        a {
+            color: #0969da;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        hr {
+            height: 1px;
+            background-color: #d0d7de;
+            border: none;
+            margin: 2rem 0;
+        }
+        code {
+            padding: 0.2em 0.4em;
+            background-color: #f6f8fa;
+            border-radius: 6px;
+            font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+            font-size: 85%;
+        }
+        .hashtags {
+            margin-top: 2rem;
+            word-spacing: 0.5rem;
+        }
+        .hashtags > * {
+            display: inline-block;
+        }
+        .bot-link {
+            font-weight: 500;
+        }
+        /* preserve emoji and spacing */
+        .emoji-bullet {
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
 
-Настройте прокси соединение прямо в приложении Telegram.
- 
-Ничего устанавливать не нужно: все сразу будет работать без VPN и дополнительных приложений.
+    <h2>Что делать если не работает Telegram ?</h2>
 
-Получите доступ 👉👉 [@tg_proxy_1bot](https://t.me/tg_proxy_1bot)
+    <p>Настройте прокси соединение прямо в приложении Telegram.</p>
 
-**Минимальные цены**. 1 день дается бесплатно.
+    <p>Ничего устанавливать не нужно: все сразу будет работать без VPN и дополнительных приложений.</p>
 
----
+    <p class="bot-link">Получите доступ 👉👉 <a href="https://t.me/tg_proxy_1bot">@tg_proxy_1bot</a></p>
 
-### Уже используете VPN, но проблемы с Telegram остались ?
+    <p><strong>Минимальные цены</strong>. 1 день дается бесплатно.</p>
 
-Лучшая комбинация для максимальной защиты и стабильной работы Telegram на телефоне: **Telegram с настроенным прокси + включённый VPN на телефоне.**
+    <hr />
 
-#### Почему такая связка даёт преимущества:
+    <h3>Уже используете VPN, но проблемы с Telegram остались ?</h3>
 
-⚡ **Это удобно**
+    <p>Лучшая комбинация для максимальной защиты и стабильной работы Telegram на телефоне: <strong>Telegram с настроенным прокси + включённый VPN на телефоне.</strong></p>
 
-VPN приходится периодически переключать, например чтобы зайти на российские сайты.
+    <h4>Почему такая связка даёт преимущества:</h4>
 
-Прокси для Telegram будет работать в любом случае, настройте один раз и Telegram будет работать всегда.
+    <p>⚡ <strong>Это удобно</strong></p>
+    <p>VPN приходится периодически переключать, например чтобы зайти на российские сайты.</p>
+    <p>Прокси для Telegram будет работать в любом случае, настройте один раз и Telegram будет работать всегда.</p>
+    <p>Когда ваш VPN снова заблокируют, Telegram продолжит работать.</p>
 
-Когда ваш VPN снова заблокируют, Telegram продолжит работать.
+    <p>⚡ <strong>Меньше шансов на замедление Telegram</strong></p>
+    <p>Многие провайдеры и мобильные операторы специально блокируют именно трафик Telegram.</p>
+    <p>Прокси позволяет обойти DPI и «умное» торможение трафика мессенджера, даже когда весь остальной трафик идёт через VPN.</p>
 
-⚡ **Меньше шансов на замедление Telegram**
+    <p>🛡️ <strong>Защита от утечек и ошибок VPN</strong></p>
+    <p>Если VPN даже на короткое время отключится или если не весь трафик будет защищен VPN — Telegram всё равно будет выходить через свой прокси.</p>
 
-Многие провайдеры и мобильные операторы специально блокируют именно трафик Telegram.
+    <p>🌍 <strong>Гибкое гео-управление</strong></p>
+    <p>VPN можно держать на нужной стране (например, для банков, стриминга, Google Pay), переключать страны.</p>
+    <p>А прокси соединение в Telegram так и останется стабильно работать без переключения → Telegram работает быстро и без региональных ограничений.</p>
 
-Прокси позволяет обойти DPI и «умное» торможение трафика мессенджера, даже когда весь остальной трафик идёт через VPN.
+    <p>🔐 <strong>Дополнительный слой анонимности</strong></p>
+    <p>VPN защищает весь телефон, прокси защищает вас от блокировок.</p>
+    <p>Если вы хотите одновременно и безопасность, и скорость, и независимость от блокировок/торможения — эта связка на сегодняшний день одна из самых продвинутых для мобильного приложения Telegram.</p>
 
-🛡️ **Защита от утечек и ошибок VPN**
+    <hr />
 
-Если VPN даже на короткое время отключится или если не весь трафик будет защищен VPN — Telegram всё равно будет выходить через свой прокси.
+    <p>Получите доступ 👉👉  <a href="https://t.me/tg_proxy_1bot">@tg_proxy_1bot</a></p>
 
-🌍 **Гибкое гео-управление**
+    <div class="hashtags">
+        <code>Telegram</code> <code>SOCKS5</code> <code>VPN</code> <code>Приватность</code> <code>Безопасность</code> <code>бесплатно</code> <code>mtproto</code> <code>Россия</code> <code>блокировки</code> <code>блокировка</code> <code>dpi</code> <code>телеграм</code> <code>телега</code> <code>тг</code> <code>прокси</code> <code>proxy</code><code>не работает</code><code>не грузит</code><code>не грузятся</code><code>не грузится</code><code>видео</code><code>файлы</code><code>аудио</code><code>загрузка</code><code>скорость</code><code>тормозит</code><code>изображения</code><code>интернет</code><code>исправить</code><code>решение</code><code>проблема</code><code>проблему</code><code>проблемы</code><code>упала</code><code>что делать</code>
+        <code>почему</code><code>Телеграм</code>
+    </div>
 
-VPN можно держать на нужной стране (например, для банков, стриминга, Google Pay), переключать страны.
-
-А прокси соединение в Telegram так и останется стабильно работать без переключения → Telegram работает быстро и без региональных ограничений.
-
-🔐 **Дополнительный слой анонимности**
-
-VPN защищает весь телефон, прокси защищает вас от блокировок.
-
-Если вы хотите одновременно и безопасность, и скорость, и независимость от блокировок/торможения — эта связка на сегодняшний день одна из самых продвинутых для мобильного приложения Telegram.
-
----
-
-👉 [@tg_proxy_1bot](https://t.me/tg_proxy_1bot)
-
-`#Telegram` `#SOCKS5` `#VPN` `#Приватность` `#Безопасность` `#бесплатно` `#mtproto` `#россия` `#блокировки` `#блокировка` `#dpi` `#телеграм` `#телега` `#тг` `#прокси` `#proxy`
+</body>
+</html>
