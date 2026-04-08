@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://russia-telegram-proxy.github.io/sitemap.xml
